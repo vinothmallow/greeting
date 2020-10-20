@@ -1,0 +1,13 @@
+{
+    "name": "vinothmallow/greeting",
+    "description": "Simple package demo",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "VinothMallow\\Greeting\\": "src/"
+        }
+    }
+}
