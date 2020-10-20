@@ -9,5 +9,13 @@
         "psr-4": {
             "VinothMallow\\Greeting\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "VinothMallow\\Greeting\\Providers\\GreetingServiceProvider"
+            ],
+            "aliases": {}
+        }
     }
 }
